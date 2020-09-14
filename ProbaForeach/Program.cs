@@ -14,7 +14,7 @@ namespace ProbaForeach
 
             int szum = 0;
 
-            foreach (int t in tomb)
+            foreach (var t in tomb)
             {
                 szum += t;
                 Console.WriteLine(t.ToString());
